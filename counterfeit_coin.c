@@ -1,7 +1,10 @@
-#include<stdio.h>
+//C Program to find the counterfeit coin in a bag full of coins
+#include<stdio.h>                                           //Header files
+//Global Decalration
 int c,d,k,count=0;
 int div(int l,int h);
 int comp(int,int);
+//Main function Declaration
 int main(int argc, char *argv[])
 {
     int a,s=1;
@@ -17,6 +20,7 @@ int main(int argc, char *argv[])
     }
         printf("The Number of Count taken is %d\n",count);
 }
+//Implementing Divide and Conquer approach
 int div(int l,int h)
 {
     int m;
@@ -66,6 +70,7 @@ int div(int l,int h)
         return -1;
     }
 }
+//Function for comparison
 int comp(int l,int h)
 {
     int m;
