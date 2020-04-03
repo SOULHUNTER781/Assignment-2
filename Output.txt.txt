@@ -1,0 +1,11 @@
+OUTPUT OF PROGRAM WITH SAMPLE DATA:
+INPUT:
+500 26 1
+OUTPUT:
+The Counterfeit coin is 26
+The Number of Count taken is 9
+log base 2(500)+1=9
+TIME COMPLEXITY:O(Log base 2 N)
+
+TOTAL NUMBER OF BASIC OPERATIONS IS:Divide and conquer method and Comparison.
+TIME COMPLEXITY:O(Log base 2 N)
